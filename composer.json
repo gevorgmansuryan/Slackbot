@@ -1,0 +1,20 @@
+{
+    "name": "Gevman/SlackBot",
+    "description": "A PHP lib for slack bot",
+    "type": "project",
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "Gevorg Mansuryan",
+            "email": "gevorgmansuryan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gevman\\SlackBot\\": "src/"
+        }
+    }
+}
