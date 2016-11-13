@@ -1,16 +1,12 @@
 # Slackbot
 
-add this to `require` section
+for sending messages to Slack using Slack Incoming WebHook
 
-```
-"Gevman/SlackBot": "dev-master"
-```
+example:
 
-and this to `repositories` section
+```php
+<?php
+$slackBot = new Gevman\SlackBot\IncomingBot('YOUR_SLACK_HOOK_URL');
+$slackBot->send('Hello')->withTitle('Good morning')->to('general');
 
-```
-{
-  "type": "vcs",
-  "url": "https://github.com/gevorgmansuryan/Slackbot.git"
-}
 ```
