@@ -1,5 +1,5 @@
 {
-    "name": "Gevman/SlackBot",
+    "name": "gevman/slack-bot",
     "description": "A PHP lib for slack bot",
     "type": "project",
     "require": {
